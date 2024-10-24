@@ -4,5 +4,5 @@
 if [ $# -eq 0 ]; then
   echo "Usage: pings {IP_ADDRESS}"
 else
-  ping -c 5 $1
+  ping -c 5 "$1"
 fi
